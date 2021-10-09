@@ -8,7 +8,6 @@ int main()
         printf("Enter a number \n");
         scanf("%d", &array[i]);
     }
-    
     for (a = 0; a < 5; a++)
     {
         for (b = 0; b < 5; b++)
@@ -25,7 +24,7 @@ int main()
     printf("arranging the given number in asscending order is: \n");
     for (int i = 0; i < 5; i++)
     {
-        printf("%d \t", array[i]);
+        printf("%d\n", array[i]);
     }
     
     
